@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+  <!-- banner section -->
+  <section class="w-[100%] h-[100vh] bg-[url('netflix.jpg')] bg-no-repeat bg-cover bg-center">
+    <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.8)]">
+      <header class="max-w-[1170px] mx-auto">
+        <div class="grid sm:grid-cols-2 grid-cols-[30%_auto] px-[10px] items-center  ">
+          <figure>
+            <img src="netflixlogo-removebg-preview.png" class="w-[150px]" />
+          </figure>
+          <div class="flex justify-end gap-[10px]">
+            <div class="relative ">
+              <svg class="text-white absolute top-[8.5px] left-[6.5px]" xmlns="http://www.w3.org/2000/svg" fill="none"
+                role="img" viewBox="0 0 16 16" width="16" height="16" data-icon="LanguagesSmall" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z"
+                  fill="currentColor"></path>
+              </svg>
+              <select name="" id=""
+                class="bg-black text-white border-[1px] border-white p-[7px_20px] rounded-[5px] sm:p-[5px_25px] p-[5px_20px]">
+                <option value="">English</option>
+                <option value="">Hindi</option>
+                <option value="">French</option>
+                <option value="">German</option>
+                <option value="">Italian</option>
+              </select>
+            </div>
+            <button class="bg-red-600 rounded-[5px] px-[5px] text-white">
+              sign in
+            </button>
+          </div>
+        </div>
+      </header>
+      <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px] sm:mt-[40px] mt-[70px] text-white text-center">
+        <h1 class=" sm:text-[50px] text-[30px] font-bold  ">Unlimited movies, TV shows and more</h1>
+        <h4 class="text-[22px] py-[15px]">Watch anywhere. Cancel anytime.</h4>
+        <p class="text-[20px]">Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="max-w-[700px] mx-auto">
+          <form action="" class="grid sm:grid-cols-[70%_auto] grid-cols-1 mt-[15px] gap-[10px]">
+            <input type="text" placeholder="Email Address"
+              class="text-white border-[1px] bg-[transparent] border-[#ccc] h-[50px] pl-[20px]"></input>
+            <button
+              class="bg-red-600 rounded-[5px] px-[5px] text-white py-[10px] hover:bg-[rgb(203,17,50)] duration-300 font-bold">Get
+              Started ></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- second section -->
+  <section class="w-[100%] border-t-[8px] border-t-[#605d5d] sm:py-[100px] py-[50px] bg-black">
+    <div class="max-w-[1170px] mx-auto px-[15px]">
+      <div class="grid sm:grid-cols-2 grid-cols-1 gap-[30px]">
+        <div class="text-white pt-[80px] left-[50px]">
+          <h2 class="sm:text-[50px] text-[40px] font-bold  ">Enjoy on your TV</h2>
+          <p class="sm:text-[23px] text-[20px] pt-[30px]">Watch on smart TVs , PlayStation , Xbox , Chromeset,</br>
+            Apple TV, Blu-ray players and more.</p>
+        </div>
+        <figure class="relative">
+          <video class="absolute w-[80%] left-[10%] bottom-[20%]"
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" autoplay
+            muted></video>
+          <img class="relative" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- third section -->
+  <section class="w-[100%] border-t-[8px] border-t-[#605d5d] sm:py-[100px] py-[50px] bg-black">
+    <div class="max-w-[1170px] mx-auto px-[15px]">
+      <div class="grid sm:grid-cols-2 grid-cols-1 gap-[30px]">
+
+        <figure class="relative sm:order-1 order-2">
+          <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+          <div
+            class="sm:w-[60%] w-[80%] h-[90px]  absolute sm:left-[20%] left-[10%] border-[1px] border-[#ccc] bottom-[0px] bg-black grid  grid-cols-[70%_auto] rounded-[15px]">
+            <div class="grid grid-cols-[40%_auto] h-[90px] ">
+              <img src="stranger.jpg" alt="" class="mt-[10px] ml-[20px] h-[70px] w-[50px] ">
+              <div class="text-white  sm:mt-[20px] mt-[10px] tracking-[1.5px] text-[16px] ml-[5px]">
+                Stranger things<br>
+                <div class="text-blue-500"> Downloading...</div>
+              </div>
+            </div>
+            <div class=" h-[90px] mt-[17px]">
+              <img src="arrow-arrow-down.gif" alt="" ]>
+              <!-- <svg muted autoplay xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" width="393" height="393" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clipPath id="__lottie_element_2"><rect width="100" height="100" x="0" y="0"/></clipPath></defs><g clip-path="url(#__lottie_element_2)"><g transform="matrix(1,0,0,1,50,46.47953796386719)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(3,0,0,3,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(246,246,246)" stroke-opacity="1" stroke-width="1" d=" M0,-4.5 C0,-4.5 0,4.5 0,4.5"/></g></g><g transform="matrix(-1,0,0,-1,50,56.22953796386719)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(0,-3,3,0,0,0)"><path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(246,246,246)" stroke-opacity="1" stroke-width="1" d=" M-1.75,3.5 C-1.75,3.5 1.0428931713104248,0.7071067690849304 1.0428931713104248,0.7071067690849304 C1.4331454038619995,0.3168545365333557 1.4331454038619995,-0.3168545365333557 1.0428931713104248,-0.7071067690849304 C1.0428931713104248,-0.7071067690849304 -1.75,-3.5 -1.75,-3.5"/></g></g><g transform="matrix(1,0,0,1,49.9119987487793,50)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0.08799999952316284,22.457000732421875)"><path fill="rgb(246,246,246)" fill-opacity="1" d=" M16,0 C16,0 16,0 16,0 C16,0.6898750066757202 15.439874649047852,1.25 14.75,1.25 C14.75,1.25 -14.75,1.25 -14.75,1.25 C-15.439874649047852,1.25 -16,0.6898750066757202 -16,0 C-16,0 -16,0 -16,0 C-16,-0.6898750066757202 -15.439874649047852,-1.25 -14.75,-1.25 C-14.75,-1.25 14.75,-1.25 14.75,-1.25 C15.439874649047852,-1.25 16,-0.6898750066757202 16,0z"/></g></g></g></svg> -->
+            </div>
+          </div>
+        </figure>
+        <div class="text-white pt-[80px] left-[50px] sm:order-2 order-1">
+          <h2 class="sm:text-[50px] text-[40px] font-bold  ">Download your shows to watch offline.</h2>
+          <p class="sm:text-[23px] text-[20px] pt-[30px]">Save your favourites easily and always have something to
+            watch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  fourth section -->
+  <section class="w-[100%] border-t-[8px] border-t-[#605d5d] sm:py-[100px] py-[50px]  bg-black">
+    <div class="max-w-[1170px] mx-auto px-[15px]">
+      <div class="grid sm:grid-cols-2 grid-cols-1 gap-[10px]">
+        <div class="text-white pt-[80px] left-[50px]">
+          <h2 class="sm:text-[50px] text-[40px] font-bold  ">Create profile for kids </h2>
+          <p class="sm:text-[23px] text-[20px] pt-[30px]">Send children on adventures with their favourite
+            <br>characters in a space made just for them-free with<br> your membership</p>
+        </div>
+        <figure>
+          <img
+            src="https://occ-0-2849-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
+            alt="" srcset="">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ section -->
+  <section class="w-[100%] border-t-[8px] border-t-[#605d5d] sm:py-[100px] py-[50px] bg-black">
+    <div class="max-w-[1170px] mx-auto px-[15px]">
+      <h2 class="text-white text-center font-bold sm:text-[50px] text-[40px]">Frequently Asked Questions </h2>
+      <!-- parent div -->
+      <div class="py-[30px]">
+        <!-- div for all quess and anss -->
+        <div class="bg-[#2d2d2d] mb-[15px]">
+          <div
+            class="p-[20px] text-white text-[30px] relative border-b-[2px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer faqQues">
+            <h3>What is Netflix?</h3>
+            <span class="absolute right-[20px] top-[15px]">+</span>
+          </div>
+          <div class="text-white text-[20px] scale-y-0 h-[0px] origin-top duration-300">
+            <p>
+              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+              documentaries, and more on thousands of internet-connected devices. You can watch instantly from any
+              device with an internet connection.
+              You can also stream on your TV using Chromecast, Apple TV, Fire TV, or a smart TV.
+            </p>
+          </div>
+
+          <div
+            class="p-[20px] text-white text-[30px] relative border-b-[2px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer faqQues">
+            <h3>What is Netflix?</h3>
+            <span class="absolute right-[20px] top-[15px]">+</span>
+          </div>
+          <div class="text-white text-[20px] scale-y-0 h-[0px] origin-top duration-300">
+            <p>
+              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+              documentaries, and more on thousands of internet-connected devices. You can watch instantly from any
+              device with an internet connection.
+              You can also stream on your TV using Chromecast, Apple TV, Fire TV, or a smart TV.
+            </p>
+          </div>
+
+          <div
+            class="p-[20px] text-white text-[30px] relative border-b-[2px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer faqQues">
+            <h3>What is Netflix?</h3>
+            <span class="absolute right-[20px] top-[15px]">+</span>
+          </div>
+          <div class="text-white text-[20px] scale-y-0 h-[0px] origin-top duration-300">
+            <p>
+              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+              documentaries, and more on thousands of internet-connected devices. You can watch instantly from any
+              device with an internet connection.
+              You can also stream on your TV using Chromecast, Apple TV, Fire TV, or a smart TV.
+            </p>
+          </div>
+
+          <div
+            class="p-[20px] text-white text-[30px] relative border-b-[2px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer faqQues">
+            <h3>What is Netflix?</h3>
+            <span class="absolute right-[20px] top-[15px]">+</span>
+          </div>
+          <div class="text-white text-[20px] scale-y-0 h-[0px] origin-top duration-300">
+            <p>
+              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+              documentaries, and more on thousands of internet-connected devices. You can watch instantly from any
+              device with an internet connection.
+              You can also stream on your TV using Chromecast, Apple TV, Fire TV, or a smart TV.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <footer class="w-[100%] border-t-[8px] border-t-[#605d5d] sm:py-[100px] py-[50px] bg-black">
+    <div class="max-w-[1170px] mx-auto px-[15px]">
+      </div>
+    </footer>
+
+</body>
+<script>
+  let ques = document.querySelectorAll(".faqQues");
+  ques.forEach((v, index) => {
+    v.addEventListener("click", () => {
+      v.nextElementSibling.classList.toggle("h-[auto]")
+      v.nextElementSibling.classList.toggle("scale-y-100")
+      v.nextElementSibling.classList.toggle("p-[20px]")
+      v.children[1].classList.toggle("rotate-45")
+
+      ques.forEach((element, i) => {
+        if (i != index) {
+          element.nextElementSibling.classList.remove("h-[auto]", "scale-y-100", "p-[20px]")
+          element.children[1].classList.remove("rotate-45")
+        }
+      })
+    }
+    )
+  });
+
+</script>
+
+</html>
